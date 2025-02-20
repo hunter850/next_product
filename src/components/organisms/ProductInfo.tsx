@@ -1,6 +1,6 @@
 import ProductInfoCard from "@/components/molecules/ProductInfoCard";
 // types
-import type { Product } from "@/components/organisms/ProductGrid";
+import type { Product } from "@/types";
 
 interface VideoListProps {
     productInfo: Product;

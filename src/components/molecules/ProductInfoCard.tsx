@@ -1,7 +1,7 @@
 import { Card } from "@/components/ui/card";
 import Image from "next/image";
 // types
-import type { Product } from "@/components/organisms/ProductGrid";
+import type { Product } from "@/types";
 import { Star } from "lucide-react";
 
 export default function ProductInfoCard(props: Product) {
